@@ -45,6 +45,7 @@ MovieID                 Unique identification for each movie
 Rating                  User rating for each movie
 Timestamp               Timestamp generated while adding user review 
 
+
 • UserIDs range between 1 and 6040 
 • The MovieIDs range between 1 and 3952 
 • Ratings are made on a 5-star scale (whole-star ratings only) 
@@ -52,80 +53,63 @@ Timestamp               Timestamp generated while adding user review
 • Each user has at least 20 ratings 
 
 
-Users.dat Format - UserID::Gender::Age::Occupation::Zip-code
-Field
-Description
-UserID
-Unique identification for each user
-Genere
-Category of each movie
-Age
-User’s age
-Occupation
-User’s Occupation
-Zip-code
-Zip Code for the user’s location All demographic information is provided voluntarily by the users and is not checked for accuracy. Only users who have provided demographic information are included in this data set. • Gender is denoted by an "M" for male and "F" for female • Age is chosen from the following ranges:
-Value
-Description
-1
-"Under 18"
-18
-"18-24"
-25
-"25-34"
-35
-"35-44"
-45
-"45-49"
-50
-"50-55"
-56
-"56+"
+
+Users.dat 
+
+Format - UserID::Genre::Age::Occupation::Zip-code
+
+
+Field                Description
+UserID               Unique identification for each user
+Genre                Category of each movie
+Age                  User’s age
+Occupation           User’s Occupation
+Zip-code             Zip Code for the user’s location 
+
+All demographic information is provided voluntarily by the users and is not checked for accuracy.
+
+Only users who have provided demographic information are included in this data set. 
+
+• Gender is denoted by an "M" for male and "F" for female 
+• Age is chosen from the following ranges:
+
+Value                 Description
+1                     "Under 18" 
+18                    "18-24"
+25                    "25-34"
+35                    "35-44"
+45                    "45-49"
+50                    "50-55"
+56                     "56+"
+
+
 • Occupation is chosen from the following choices:
-Value
-Description
-0
-"other" or not specified
-1
-"academic/educator"
-2
-"artist”
-3
-"clerical/admin"
-4
-"college/grad student"
-5
-"customer service"
-6
-"doctor/health care"
-7
-"executive/managerial"
-8
-"farmer"
-9
-"homemaker"
-10
-"K-12 student"
-11
-"lawyer"
-12
-"programmer"
-13
-"retired"
-14
-"sales/marketing"
-15
-"scientist"
-16
-"self-employed"
-17
-"technician/engineer"
-18
-"tradesman/craftsman"
-19
-"unemployed"
-20
-"writer” Movies.dat Format - MovieID::Title::Genres
+
+Value                  Description
+0                      "other" or not specified
+1                      "academic/educator"
+2                      "artist”
+3                      "clerical/admin"
+4                       "college/grad student"
+5                      "customer service"
+6                      "doctor/health care"
+7                      "executive/managerial"
+8                      "farmer"
+9                      "homemaker"
+10                     "K-12 student"
+11                     "lawyer"
+12                     "programmer"
+13                     "retired"
+14                     "sales/marketing"
+15                     "scientist"
+16                     "self-employed"
+17                     "technician/engineer"
+18                     "tradesman/craftsman"
+19                     "unemployed"
+20                      "writer” 
+
+
+Movies.dat Format - MovieID::Title::Genres
 Field
 Description
 MovieID
